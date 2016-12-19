@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/IMV_write"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_button_menu"
+        android:padding="20dp"
+        android:src="@drawable/payment"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/IMV_type"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_button_menu"
+        android:padding="20dp"
+        android:src="@drawable/type"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/IMV_activity"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_button_menu"
+        android:padding="20dp"
+        android:src="@drawable/activity"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/IMV_dashboard"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_button_menu"
+        android:padding="20dp"
+        android:src="@drawable/dashboard"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
